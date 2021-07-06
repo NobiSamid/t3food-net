@@ -11,19 +11,21 @@ body {
 .container-half {
     width: 50%;
     font-size: 25px;
+    margin-top: 5%;
 }
 
-.container-half image {
-    width: 30%;
+.container-half img {
+    width: 80%;
+    /* margin-top: 20%; */
 }
 
 .container-half span {
     color: brown;
 }
 
-#firstContainer {
-    margin-top: 170px;
-}
+/* #firstContainer {
+    margin-top: 20%;
+} */
 
 .link-button {
     text-decoration: none;
@@ -36,4 +38,34 @@ body {
     display: flex;
     overflow: hidden;
     background-image: url(images/7.png);
+}
+
+.recipies-title {
+    text-align: center;
+}
+
+.recipies {
+    display: flex;
+    overflow: hidden;
+    padding: 5%;
+}
+
+.recipie-card {
+    display: block;
+    width: 30%;
+    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 20px;
+    box-shadow: 0px 20px 40px 0px rgba(37, 71, 107, 0.385);
+    justify-content: center;
+    align-items: center;
+}
+
+.recipie-card img {
+    /* object-fit: fill;
+    width: 400px;
+    height: 400px; */
+    width: 100%;
+    border-radius: 10px;
 }
