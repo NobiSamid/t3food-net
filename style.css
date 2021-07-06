@@ -1,0 +1,39 @@
+body {
+    font-family: 'Nova Round', cursive;
+}
+
+.top {
+    display: flex;
+    overflow: hidden;
+    margin: 0px 5px 10px 50px;
+}
+
+.container-half {
+    width: 50%;
+    font-size: 25px;
+}
+
+.container-half image {
+    width: 30%;
+}
+
+.container-half span {
+    color: brown;
+}
+
+#firstContainer {
+    margin-top: 170px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(30deg, rgba(255, 0, 0, 0.905), rgba(165, 42, 42, 0.583));
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.two {
+    display: flex;
+    overflow: hidden;
+    background-image: url(images/7.png);
+}
